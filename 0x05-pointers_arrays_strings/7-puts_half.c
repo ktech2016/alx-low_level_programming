@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "main.h"
+#include "holberton.h"
 /**
  * puts_half - Prints out the first half of a string.
  * @str: input string to print.
@@ -19,6 +18,6 @@ void puts_half(char *str)
 		_putchar(str[j]);
 		j++;
 	}
-
 	_putchar('\n');
 }
+
